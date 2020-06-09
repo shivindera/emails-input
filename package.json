@@ -1,0 +1,17 @@
+{
+    "name": "emails-input",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "parcel index.html",
+        "build": "rm -rf dist && parcel build index.html && yarn buildjs && yarn buildless",
+        "buildjs": "tsc src/emails-input.ts --outDir build/",
+        "buildless": "lessc src/emails-input.less build/emails-input.css"
+    },
+    "devDependencies": {
+        "less": "^3.11.3",
+        "parcel-bundler": "^1.12.4",
+        "typescript": "^3.9.5"
+    }
+}
