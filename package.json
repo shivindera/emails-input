@@ -10,8 +10,8 @@
         "buildless": "lessc src/emails-input.less build/emails-input.css"
     },
     "devDependencies": {
-        "less": "^3.11.3",
-        "parcel-bundler": "^1.12.4",
-        "typescript": "^3.9.5"
+        "less": "^4.1.1",
+        "parcel-bundler": "^1.12.5",
+        "typescript": "^4.3.2"
     }
 }
